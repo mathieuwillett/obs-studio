@@ -55,6 +55,7 @@ add_obs_plugin(mac-syphon PLATFORMS MACOS)
 add_obs_plugin(mac-videotoolbox PLATFORMS MACOS)
 add_obs_plugin(mac-virtualcam PLATFORMS MACOS)
 add_obs_plugin(nv-filters PLATFORMS WINDOWS)
+add_subdirectory(obs-fade-dock)
 
 check_obs_browser()
 
